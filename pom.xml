@@ -15,9 +15,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <modules>
-        <module>passenger-service</module>
         <module>booking-service</module>
-        <module>inventory-service</module>
         <module>discovery-server</module>
         <module>notification-service</module>
         <module>payment-service</module>
@@ -43,6 +41,8 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+
 
     <build>
         <plugins>
