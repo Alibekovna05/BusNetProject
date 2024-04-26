@@ -4,89 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28640c48-5165-4b60-8c65-95807722b7a3" name="Changes" comment="booking-service">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/kz/iitu/apigateway/config/Resilience4JConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/kz/iitu/apigateway/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/kz/iitu/apigateway/controller/FallbackController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/controller/BookingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/dto/BookingRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/dto/BookingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/dto/FlightBookingRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/dto/FlightBookingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/dto/PaymentMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/exception/BookingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/exception/BookingResponseEntityExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/external/client/FlightService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/external/decoder/CustomErrorDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/external/request/PaymentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/external/response/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/external/response/PaymentResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/model/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/model/BookingStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/model/BusFlight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/model/BusFlightBooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/repository/BookingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/repository/FlightBookingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/service/BookingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/service/impl/BookingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/service/impl/FlightBookingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/kz/iitu/discoveryserver/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/kz/iitu/notificationservice/event/BookingCompletedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/kz/iitu/paymentservice/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/kz/iitu/paymentservice/dto/PaymentMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/kz/iitu/paymentservice/dto/PaymentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/kz/iitu/paymentservice/dto/PaymentResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/kz/iitu/paymentservice/model/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/kz/iitu/paymentservice/repository/PaymentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/kz/iitu/paymentservice/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/kz/iitu/paymentservice/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="28640c48-5165-4b60-8c65-95807722b7a3" name="Changes" comment="NotificationService">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bus-flight-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bus-flight-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bus-flight-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bus-flight-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/java/kz/iitu/discoveryserver/DiscoveryServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/java/kz/iitu/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/kz/iitu/inventoryservice/InventoryServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/test/java/kz/iitu/inventoryservice/InventoryServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/kz/iitu/notificationservice/NotificationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/java/kz/iitu/notificationservice/NotificationServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger-service/src/main/java/kz/iitu/passengerservice/PassengerServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger-service/src/test/java/kz/iitu/passengerservice/PassengerServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/test/java/kz/iitu/busnet/bookingservice/BookingServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule-service/src/main/java/kz/iitu/scheduleservice/ScheduleServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/kz/iitu/busnet/bookingservice/BookingServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule-service/src/test/java/kz/iitu/scheduleservice/ScheduleServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/searching-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/searching-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searching-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/searching-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +51,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
     "HTTP Request.generated-requests | #1.executor": "Run",
     "HTTP Request.generated-requests | #2.executor": "Run",
     "Maven.BusNetProject [install].executor": "Run",
@@ -141,14 +62,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
     "Spring Boot.BookingServiceApplication.executor": "Run",
     "Spring Boot.BusFlightServiceApplication (1).executor": "Run",
+    "Spring Boot.BusFlightServiceApplication.executor": "Run",
     "Spring Boot.DiscoveryServerApplication.executor": "Run",
+    "Spring Boot.NotificationServiceApplication.executor": "Run",
+    "Spring Boot.PaymentServiceApplication.executor": "Run",
     "Spring Boot.SearchingServiceApplication.executor": "Run",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/Admin/Desktop/DiplomaAndroid/FinalYearProject/BusNetProject/searching-service/src/main/java/kz/iitu/busnet/searchingservice",
-    "last_opened_file_path": "C:/Users/Admin/Desktop/DiplomaAndroid/FinalYearProject/BusNetProject/payment-service/src/main/java/kz/iitu/paymentservice",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/DiplomaAndroid/FinalYearProject/BusNetProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -170,11 +95,11 @@
       <recent name="kz.iitu.busnet.busflightservice.service.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\DiplomaAndroid\FinalYearProject\BusNetProject" />
       <recent name="C:\Users\Admin\Desktop\DiplomaAndroid\FinalYearProject\BusNetProject\payment-service\src\main\java\kz\iitu\paymentservice" />
       <recent name="C:\Users\Admin\Desktop\DiplomaAndroid\FinalYearProject\BusNetProject\booking-service\src\main\java\kz\iitu\busnet\bookingservice\external" />
       <recent name="C:\Users\Admin\Desktop\DiplomaAndroid\FinalYearProject\BusNetProject\booking-service\src\main\java\kz\iitu\busnet\bookingservice" />
       <recent name="C:\Users\Admin\Desktop\DiplomaAndroid\FinalYearProject\BusNetProject\searching-service\src\main\java\kz\iitu\busnet\searchingservice" />
-      <recent name="C:\Users\Admin\Desktop\DiplomaAndroid\FinalYearProject\BusNetProject\bus-flight-service\src\main\java\kz\iitu\busnet\busflightservice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="kz.iitu.paymentservice.dto" />
@@ -198,7 +123,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+  <component name="RunManager" selected="Spring Boot.BusFlightServiceApplication">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -219,7 +144,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BusFlightServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="BusFlightServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="bus-flight-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="kz.iitu.busnet.busflightservice.BusFlightServiceApplication" />
       <extension name="coverage">
@@ -228,13 +153,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BusFlightServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="bus-flight-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iitu.busnet.busflightservice.BusFlightServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -282,8 +200,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.BusFlightServiceApplication" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-        <item itemvalue="Spring Boot.BusFlightServiceApplication (1)" />
         <item itemvalue="HTTP Request.generated-requests | #2" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
       </list>
@@ -297,7 +215,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713844584489</updated>
-      <workItem from="1713844585662" duration="20268000" />
+      <workItem from="1713844585662" duration="21169000" />
     </task>
     <task id="LOCAL-00001" summary="bus-flight-service">
       <option name="closed" value="true" />
@@ -331,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714112092467</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="NotificationService">
+      <option name="closed" value="true" />
+      <created>1714122546923</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714122546923</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +268,7 @@
     <MESSAGE value="bus-flight-service" />
     <MESSAGE value="searching-service" />
     <MESSAGE value="booking-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="booking-service" />
+    <MESSAGE value="NotificationService" />
+    <option name="LAST_COMMIT_MESSAGE" value="NotificationService" />
   </component>
 </project>
