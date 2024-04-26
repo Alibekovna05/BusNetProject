@@ -16,7 +16,7 @@
     </parent>
     <modules>
         <module>passenger-service</module>
-        <module>order-service</module>
+        <module>booking-service</module>
         <module>inventory-service</module>
         <module>discovery-server</module>
         <module>notification-service</module>
