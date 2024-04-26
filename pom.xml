@@ -23,6 +23,7 @@
         <module>payment-service</module>
         <module>api-gateway</module>
         <module>bus-flight-service</module>
+        <module>searching-service</module>
     </modules>
 
     <properties>
